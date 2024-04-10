@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background: rgb(112, 112, 116);
+}
+
+.contenedor{
+    width: 1000px;
+    margin: 20px auto;
+}
+
+header{
+    background: rgb(66, 65, 65);
+}
+
+header nav ul{
+    width: 100%;
+    overflow: hidden;
+    list-style: none;
+}
+
+header nav ul li{
+    float: left;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 20px;
+    color: black;
+}
+header nav ul li a:hover {
+    background: red;
+    color: aqua;
+}
+
+.main{
+    width: 700px;
+    background: whitesmoke;
+    float: left;
+}
+
+.imagen{
+    width: 80%;
+}
+
+.imagen img{
+    width: 80%;
+    vertical-align: top;
+}
+.post{
+    padding: 40px;
+}
+.article h2
