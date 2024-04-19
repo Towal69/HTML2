@@ -36,7 +36,7 @@ header nav ul li a {
     color: black;
 }
 header nav ul li a:hover {
-    background: red;
+    background: rgb(0, 17, 255);
     color: aqua;
 }
 
@@ -57,4 +57,34 @@ header nav ul li a:hover {
 .post{
     padding: 40px;
 }
-.article h2
+.article h2{
+    margin-bottom: 20px;
+    line-height: 27px;
+}
+
+.aside {
+    width: 300px;
+    background: #161f26;
+    padding: 20px;
+    color: bisque;
+    float: left;
+}
+aside .widget{
+    margin-bottom: 20px;
+
+}
+
+aside .widget .titulo{
+    color: rgb(0, 0, 0);
+    border-bottom: 1px solid;
+    margin-bottom: 20px;
+}
+
+footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+
+}
